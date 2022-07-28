@@ -7,6 +7,7 @@ set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMake;${CMAKE_MODULE_PATH}")
 include(FindPkgConfig)
 
 project(build_producer)
+message(STATUS "In build producer")
 
 include(ExternalProject)
 
